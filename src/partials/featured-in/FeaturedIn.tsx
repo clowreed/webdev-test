@@ -113,11 +113,11 @@ const MarqueeWrapper = styled.div`
 
 const FeaturedInLogos = () => (
   <Images>
-    <FastCompany />
-    <OReilly />
     <TechCrunch />
-    <VentureBeat />
+    <FastCompany />
     <WallStreetJournal />
+    <VentureBeat />
+    <OReilly />
   </Images>
 )
 
