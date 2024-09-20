@@ -18,6 +18,7 @@ import SplitTextLarge from '@partials/split-text-large/SplitTextLarge'
 import ToolsSection from '@partials/tools-section/ToolsSection'
 import SuccessStoriesSlider from '@partials/success-stories-slider/SuccessStoriesSlider'
 import SectionCta from '@partials/section-cta/SectionCta'
+import PricingHero from '@partials/pricing-hero/PricingHero'
 
 // Data
 import { engageItems, reliableItems } from './data'
@@ -83,7 +84,7 @@ const IndexControl = ({ lang }) => {
           </p>
         </SectionNextHeader>
       </SectionNext>
-
+      <PricingHero />
       <SuccessStoriesSlider
         filter={[
           'action-logistix',
