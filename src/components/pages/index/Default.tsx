@@ -85,52 +85,6 @@ const IndexControl = ({ lang }) => {
         </SectionNextHeader>
       </SectionNext>
       <PricingHero />
-      <SuccessStoriesSlider
-        filter={[
-          'action-logistix',
-          'envision-hr',
-          'bell-group',
-          'the-sandusky-group',
-          'find-yourself-in-fashion',
-        ]}
-      />
-
-      <SplitTextLarge
-        title={t('Automated, collaborative, secure')}
-        subtitle={t(
-          'Easily launch a beautiful, modern site that helps you accomplish more. Join 150,000+ companies that rate B12 as a top website builder on Google, Trustpilot, and G2.'
-        )}
-        imageFullWidth
-        image={
-          <StaticImage
-            src="../../../images/automated-secure.jpeg"
-            alt={t('Automated, collaborative, secure')}
-            placeholder="blurred"
-            width={860}
-          />
-        }
-      >
-        <List>
-          {reliableItems.map((item, idx) => (
-            <TextIcon
-              key={`list-item-${idx}`}
-              icon={item.icon}
-              title={t(item.title)}
-              text={t(item.subtitle)}
-              iconMotion={{
-                initial: {
-                  opacity: 0,
-                  scale: 0,
-                },
-                transition: { delay: 0.5 },
-                whileInView: { opacity: 1, scale: 1 },
-                viewport: { once: true },
-              }}
-            />
-          ))}
-        </List>
-      </SplitTextLarge>
-
       <SectionCta
         title={t('The best AI website builder for businesses')}
         text={t(
