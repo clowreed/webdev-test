@@ -2,29 +2,28 @@ import React from 'react'
 
 // Images
 import IconAi from '@images/icons/ai.inline.svg'
-import IconSimple from '@images/icons/simple.inline.svg'
 import IconPeople from '@images/icons/people.inline.svg'
 import IconSecure from '@images/icons/secure.inline.svg'
+import IconMagnet from '@images/icons/magnet.inline.svg'
+import IconCup from '@images/icons/cup.inline.svg'
+import IconServe from '@images/icons/bell.inline.svg'
 
 // Data
 export const engageItems = [
   {
-    icon: <IconAi />,
-    title: 'Generate a website instantly',
-    subtitle:
-      'AI sets up your entire website in seconds, complete with text, images, and client-facing tools.',
+    icon: <IconMagnet />,
+    title: 'Attract',
+    subtitle: 'Wow potential clients with your professional presence.',
   },
   {
-    icon: <IconSimple />,
-    title: 'Bring your ideas to life',
-    subtitle:
-      'Have AI generate drafts of new website content, blog posts, and email campaigns in seconds.',
+    icon: <IconCup />,
+    title: 'Win',
+    subtitle: 'Streamline how you secure new business.',
   },
   {
-    icon: <IconPeople />,
-    title: 'Work with experts',
-    subtitle:
-      'Customize your online presence with the user-friendly B12 Editor or get help from our experts.',
+    icon: <IconServe />,
+    title: 'Serve',
+    subtitle: 'Deliver an awesome client experience with every interaction.',
   },
 ]
 
