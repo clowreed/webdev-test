@@ -23,19 +23,14 @@ export const Wrapper = styled.div`
   }
 
   ${mq['md']} {
-    width: 40%;
-    margin-top: 0;
-    padding-bottom: 0;
+    padding-top: 60px;
+    margin-bottom: 40px;
   }
 `
 
 export const ImageLaptopWrapper = styled(motion.div)`
   width: 100%;
   text-align: center;
-
-  ${mq['md']} {
-    width: 200%;
-  }
 `
 
 export const ImagePhoneWrapper = styled(motion.div)`
@@ -46,8 +41,8 @@ export const ImagePhoneWrapper = styled(motion.div)`
   text-align: center;
 
   ${mq['md']} {
-    width: 100%;
-    bottom: -69px;
-    right: -40%;
+    width: 40%;
+    right: 430px;
+    bottom: -20px;
   }
 `

@@ -1,14 +1,12 @@
 import React from 'react'
 import { Button } from '@components/button/Button'
 import { useTranslation } from 'react-i18next'
-
-import LaptopVideoAnimation from './laptop-video-animation'
+import LaptopPhoneImage from './laptop-phone-image'
 
 import {
   StyledSection,
   Content,
   Header,
-  Eyebrow,
   StyledTitle,
   SubTitle,
   ButtonWrapper,
@@ -30,20 +28,17 @@ const HomeHero = () => {
     <StyledSection>
       <Content>
         <Header>
-          <Eyebrow as="h1" light>
-            {t('B12 website builder')}
-          </Eyebrow>
           <StyledTitle as="h1" light>
-            {t('Grow your business with a professional AI website')}
+            {t('Sell your services online')}
           </StyledTitle>
           <SubTitle>
             {t(
-              'B12 is the easiest AI website builder to help businesses attract, win, and serve clients online.'
+              'Now you can more easily attact, win, and serve your clients online, all with a single platform.'
             )}
           </SubTitle>
           <ButtonWrapper>
             <Button
-              label={t('Start for free', { ns: 'common' })}
+              label={t('Get started for free', { ns: 'common' })}
               to="https://b12.io/signup"
               variant="primary"
               as="anchor"
@@ -51,8 +46,8 @@ const HomeHero = () => {
             <ButtonNote>{t('No credit card required', { ns: 'common' })}</ButtonNote>
           </ButtonWrapper>
         </Header>
-        <LaptopVideoAnimation />
       </Content>
+      <LaptopPhoneImage />
       <StyledShapeOutline />
       <StyledShapeFilled />
     </StyledSection>

@@ -29,17 +29,13 @@ export const Content = styled.div`
   position: relative;
   z-index: 10;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 
   ${mq['md']} {
     flex-direction: row;
     flex-wrap: nowrap;
-  }
-
-  ${mq['lg']} {
-    justify-content: flex-start;
   }
 `
 
@@ -48,17 +44,12 @@ export const Header = styled.div`
   position: relative;
   z-index: 20;
 
-  h1 {
-    text-align: center;
+  ${mq['md']} {
+    width: 50%;
   }
 
-  ${mq['md']} {
-    text-align: left;
-    width: 50%;
-
-    h1 {
-      text-align: left;
-    }
+  h1 {
+    text-align: center;
   }
 `
 
@@ -95,7 +86,6 @@ export const SubTitle = styled.p`
   ${mq['md']} {
     font-size: 24px;
     line-height: 35px;
-    text-align: left;
   }
 `
 
@@ -105,6 +95,7 @@ export const ButtonWrapper = styled.div`
   gap: 8px;
   align-items: center;
   margin-top: 18px;
+  justify-content: center;
 
   ${mq['md']} {
     margin-top: 42px;

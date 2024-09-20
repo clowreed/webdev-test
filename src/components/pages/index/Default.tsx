@@ -1,7 +1,6 @@
 import styled from '@emotion/styled'
 import React from 'react'
 import { theme, mq } from '@styles/theme'
-import { StaticImage } from 'gatsby-plugin-image'
 import { useTranslation } from 'react-i18next'
 
 // Components
@@ -14,14 +13,11 @@ import TextIcon from '@components/text-icon/TextIcon'
 // Partials
 import HomeHero from '@partials/home-hero/HomeHero'
 import FeaturedIn from '@partials/featured-in/FeaturedIn'
-import SplitTextLarge from '@partials/split-text-large/SplitTextLarge'
-import ToolsSection from '@partials/tools-section/ToolsSection'
-import SuccessStoriesSlider from '@partials/success-stories-slider/SuccessStoriesSlider'
 import SectionCta from '@partials/section-cta/SectionCta'
 import PricingHero from '@partials/pricing-hero/PricingHero'
 
 // Data
-import { engageItems, reliableItems } from './data'
+import { engageItems } from './data'
 
 // Styles
 
@@ -34,7 +30,7 @@ const FeaturedInStyled = styled(FeaturedIn)`
   }
 
   ${mq['md']} {
-    margin-top: -40px;
+    margin-top: -110px;
   }
 `
 

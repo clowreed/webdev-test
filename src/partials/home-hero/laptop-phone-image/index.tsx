@@ -28,25 +28,10 @@ const LaptopPhoneImage = () => {
           width={960}
           {...imgProps}
         />
-        <StaticImage
-          className="hero-image-mobile"
-          src="./images/macbook.png"
-          alt="Sell your services online"
-          width={420}
-          {...imgProps}
-        />
       </ImageLaptopWrapper>
-
       <ImagePhoneWrapper {...motionProps} transition={{ delay: 1.2 }}>
         <StaticImage
           className="hero-image-desktop"
-          src="./images/iphone.png"
-          alt="Websites that work as hard as you do."
-          width={480}
-          {...imgProps}
-        />
-        <StaticImage
-          className="hero-image-mobile"
           src="./images/iphone.png"
           alt="Websites that work as hard as you do."
           width={480}
