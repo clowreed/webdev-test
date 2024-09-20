@@ -53,17 +53,6 @@ const IndexControl = ({ lang }) => {
           verticalAlign: 'center',
         }}
       >
-        <SectionNextHeader bottomMargin="none">
-          <Title textStyle="h3">
-            {t('Let AI effortlessly build what you need', { ns: 'index' })}
-          </Title>
-          <p>
-            {t(
-              'With B12, AI automatically creates a website with the tools you need to succeed online, including invoicing, scheduling, documents and eSignatures, and email marketing.',
-              { ns: 'index' }
-            )}
-          </p>
-        </SectionNextHeader>
         <List>
           {engageItems.map((item, idx) => (
             <TextIcon
@@ -84,6 +73,15 @@ const IndexControl = ({ lang }) => {
             />
           ))}
         </List>
+        <SectionNextHeader bottomMargin="none">
+          <Title textStyle="h3">{t('From new client intake to invoicing.', { ns: 'index' })}</Title>
+          <p>
+            {t(
+              'With B12, you get a powerful website backed by tools to help you look professional, engage with clients, and streamline business operations.',
+              { ns: 'index' }
+            )}
+          </p>
+        </SectionNextHeader>
       </SectionNext>
 
       <SuccessStoriesSlider

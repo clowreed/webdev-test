@@ -67,7 +67,7 @@ const Text = styled.p`
   margin: 0;
 
   ${mq['md']} {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
   }
 `
