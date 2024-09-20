@@ -19,8 +19,8 @@ const PricingHero = () => {
     <>
       <Wrapper>
         <Container>
-          <StyledSectionNextHeader align="center" maxWidth="70%">
-            <Title as="h1" align="center">
+          <StyledSectionNextHeader align="center" maxWidth="100%">
+            <Title as="h2" align="center">
               Simple, straightforward, pricing for every stage of business
             </Title>
             <Subtitle small>
